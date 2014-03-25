@@ -25,9 +25,9 @@ digraph G {
   adainitiative -> adacamp;
 
   /* Adacamp was inspired in some ways by Wiscon, eg. accessibility */
-  wiscon -> adacamp;
+  wiscon -> adacamp [label="a11y policies"];
   /* and then open source bridge picked up some of that from adacamp */
-  adacamp -> osbridge;
+  adacamp -> osbridge [label="a11y policies"];
 
   /* DoubleUnion came out of AdaCamp SF in 2012 */
   adacamp -> doubleunion;
