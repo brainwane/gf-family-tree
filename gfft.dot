@@ -37,6 +37,7 @@ digraph G {
   /* Various early women-in-open-source mailing lists etc */
   linuxchix -> debianwomen;
   debianwomen -> ubuntuwomen;
+  debianwomen -> gnomewomen;
 
   /* LinuxChix inspired the Haecksen miniconf at LCA */
   linuxchix -> haecksen;
@@ -48,6 +49,7 @@ digraph G {
   railsbridge -> pystar;
   railsbridge -> railsgirls;
 
+  gnomewomen -> opw;
   gsoc -> opw;
   wiscon -> racefail;
 
