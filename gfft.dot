@@ -85,7 +85,7 @@ digraph G {
   /* Direct ancestry, because Hanna Wallach did debianwomen first and
    * then GNOME Women, and was never a big participant in LinuxChix*/
   debianwomen -> gnomewomen;
-  linuxchix -> owoot;
+  haecksen -> owoot;
 
   /* Gnome Outreach Program for Women, now FOSS OPW */
   gnomewomen -> opw;
