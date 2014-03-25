@@ -74,7 +74,7 @@ digraph G {
   /* and then open source bridge picked up some of that from adacamp */
   adacamp -> osbridge [label="a11y policies"];
 
-  /* DoubleUnion came out of AdaCamp SF in 2012 */
+  /* DoubleUnion came out of AdaCamp SF in 2013 */
   adacamp -> doubleunion;
   /* pretty sure mothership hackermoms was also an inspiration? */
   mothershiphackermoms -> doubleunion;
