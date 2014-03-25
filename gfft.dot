@@ -25,7 +25,7 @@ digraph G {
   { rank = same; 2011; adainitiative; "GF/TAI AHP"; owoot }
   { rank = same; 2012; adacamp; railsgirls; "Skeptic AHPs"; "PyCon AHP"; "Feminist Frequency vids";}
   { rank = same; 2013; doubleunion; rgsoc; "Scalzi's AHP pledge"; }
-  { rank = same; 2014; mvc }
+  { rank = same; 2014; mvc; "#CoCPledge"; }
   { rank = same; unknowndate; }
 
   /* Skud set up the GF wiki in 2008, mostly inspired by earlier "women
@@ -69,7 +69,8 @@ digraph G {
   "GF/TAI AHP" -> "PyCon AHP";
 
   /* The GF/TAI AHP inspired the skeptic variants */
-  "GF/TAI AHP" -> "Skeptic AHPs"
+  "GF/TAI AHP" -> "Skeptic AHPs";
+  "GF/TAI AHP" -> "#CoCPledge";
 
   /* Causation here is less clear. */
   "GF/TAI AHP" -> "Scalzi's AHP pledge" [label="?"];
