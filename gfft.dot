@@ -3,8 +3,30 @@ digraph G {
   /*
      The following shapes are used for different types of things:
      oval = geek feminist/women-in-tech/etc organisation
+     rectangle = orgs that aren't particularly feminist, but are influential
      diamond = event/incident (cf. GF wiki "Timeline of Incidents")
   */
+
+  /*
+     And this section lays out the history in terms of years.
+  */
+
+  {
+    node [shape=plaintext, fontsize=16];
+    past -> "2000-2003" -> "2004-2006" -> 2007 -> 2008 -> 2009 -> 2010 -> 2011 -> 2012 -> 2013 -> 2014 -> unknowndate;
+  }
+  { rank = same; past; livejournal; wiscon; linuxconfau}
+  { rank = same; "2000-2003"; linuxchix; gnomewomen; ubuntuwomen; debianwomen; } /* roughly? */
+  { rank = same; "2004-2006"; gsoc; opw;}
+  { rank = same; 2007; haecksen; }
+  { rank = same; 2008; "SFF CAHP"; geekfeminism; dreamwidth; otw; }
+  { rank = same; 2009; oscon2009; racefail; couchdb; railsbridge; osbp; backupproject; osbridge; }
+  { rank = same; 2010; "apachecon assault"; }
+  { rank = same; 2011; adainitiative; "GF/TAI AHP"; owoot }
+  { rank = same; 2012; adacamp; railsgirls; }
+  { rank = same; 2013; doubleunion; rgsoc; }
+  { rank = same; 2014; mvc }
+  { rank = same; unknowndate; }
 
   /* Skud set up the GF wiki in 2008, mostly inspired by earlier "women
    * in open source" communities such as linuxchix */
@@ -18,10 +40,33 @@ digraph G {
   /* in 2010, the Noirin Plunkett's assault at ApacheCon triggered
    * discussions about anti-harassment that would lead to the formation
    * of the Ada Initiative */
-  apachecon -> adainitiative;
-  apachecon [shape=diamond];
+  "apachecon assault" -> adainitiative;
+  "apachecon assault" [shape=diamond];
 
+  /* GF (esp. volunteer burnout) was an influence on TAI */
   geekfeminism -> adainitiative;
+
+  /* The first TAI discussions were held at LCA */
+  linuxconfau -> adainitiative;
+  linuxconfau [shape=rectangle];
+
+  /* TAI wrote the first conf anti-harassment poilcy in response to the
+   * apachecon assault */
+  "apachecon assault" -> "GF/TAI AHP"
+  "geekfeminism" -> "GF/TAI AHP"
+  "adainitiative" -> "GF/TAI AHP"
+
+  /* The Con Anti-Harassment Policy (out of SFF fandom) also inspired it */
+  "SFF CAHP" -> "GF/TAI AHP"
+
+  /* Vaguely related: Open Source Boob Project and Backup Project */
+  osbp -> backupproject
+  osbp [shape=diamond]
+  "SFF CAHP" -> backupproject
+
+  /* The GF/TAI AHP inspired the PyCon variant */
+  "GF/TAI AHP" -> "PyCon AHP"
+
   adainitiative -> adacamp;
 
   /* Adacamp was inspired in some ways by Wiscon, eg. accessibility */
@@ -37,10 +82,23 @@ digraph G {
   /* Various early women-in-open-source mailing lists etc */
   linuxchix -> debianwomen;
   debianwomen -> ubuntuwomen;
+  /* Direct ancestry, because Hanna Wallach did debianwomen first and
+   * then GNOME Women, and was never a big participant in LinuxChix*/
   debianwomen -> gnomewomen;
+  linuxchix -> owoot;
+
+  /* Gnome Outreach Program for Women, now FOSS OPW */
+  gnomewomen -> opw;
+  /* "The Outreach Program for Women (OPW) was inspired by Google's
+   * Summer of Code and by how few women applied for it."
+   * via gnome.org/opw (why can't I include double slashes in a comment?)
+   */
+  gsoc -> opw;
+  gsoc [shape=rectangle]
 
   /* LinuxChix inspired the Haecksen miniconf at LCA */
   linuxchix -> haecksen;
+  linuxconfau -> haecksen;
 
   /* Both creations of Mary Gardiner's, one of the inputs to AdaCamp is
      what wasn't possible with Haecksen */
@@ -53,15 +111,17 @@ digraph G {
   railsbridge -> pystar;
   railsbridge -> railsgirls;
 
-  gnomewomen -> opw;
-  /* Google Summer of Code influenced OPW in two ways: 1. form 2. lack
-   * of women applicants to GSoc. */
-  gsoc -> opw;
+  /* There's now a rails girls summer of code */
+
+  railsgirls -> rgsoc;
+  gsoc -> rgsoc;
+
   wiscon -> racefail;
 
   /* Livejournal (esp. their fail) inspired DW and OTW */
   livejournal -> dreamwidth;
   livejournal -> otw;
+  livejournal [shape=rectangle]
 
   /* Dreamwidth and OTW inspired Skud's 2009 OSCON keynote */
   dreamwidth -> oscon2009;
