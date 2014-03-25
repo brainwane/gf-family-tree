@@ -23,7 +23,7 @@ digraph G {
   { rank = same; 2009; oscon2009; racefail; couchdb; railsbridge; osbp; backupproject; osbridge; }
   { rank = same; 2010; "apachecon assault"; backupribbons;}
   { rank = same; 2011; adainitiative; "GF/TAI AHP"; owoot }
-  { rank = same; 2012; adacamp; railsgirls; }
+  { rank = same; 2012; adacamp; railsgirls; "Skeptic AHPs"; "PyCon AHP";}
   { rank = same; 2013; doubleunion; rgsoc; }
   { rank = same; 2014; mvc }
   { rank = same; unknowndate; }
@@ -66,7 +66,10 @@ digraph G {
   backupproject -> backupribbons;
 
   /* The GF/TAI AHP inspired the PyCon variant */
-  "GF/TAI AHP" -> "PyCon AHP"
+  "GF/TAI AHP" -> "PyCon AHP";
+
+  /* The GF/TAI AHP inspired the skeptic variants */
+  "GF/TAI AHP" -> "Skeptic AHPs"
 
   adainitiative -> adacamp;
 
