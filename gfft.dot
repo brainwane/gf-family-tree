@@ -7,6 +7,27 @@ digraph G {
      diamond = event/incident (cf. GF wiki "Timeline of Incidents")
   */
 
+  /*
+     And this section lays out the history in terms of years.
+  */
+
+  {
+    node [shape=plaintext, fontsize=16];
+    past -> "2000-2003" -> "2004-2006" -> 2007 -> 2008 -> 2009 -> 2010 -> 2011 -> 2012 -> 2013 -> 2014 -> unknowndate;
+  }
+  { rank = same; past; livejournal; wiscon; linuxconfau}
+  { rank = same; "2000-2003"; linuxchix; gnomewomen; ubuntuwomen; debianwomen; } /* roughly? */
+  { rank = same; "2004-2006"; gsoc; opw;}
+  { rank = same; 2007; haecksen; }
+  { rank = same; 2008; "SFF CAHP"; geekfeminism; dreamwidth; otw; }
+  { rank = same; 2009; oscon2009; racefail; couchdb; railsbridge; osbp; backupproject; osbridge; }
+  { rank = same; 2010; "apachecon assault"; }
+  { rank = same; 2011; adainitiative; "GF/TAI AHP"; owoot }
+  { rank = same; 2012; adacamp; railsgirls; }
+  { rank = same; 2013; doubleunion; rgsoc; }
+  { rank = same; 2014; mvc }
+  { rank = same; unknowndate; }
+
   /* Skud set up the GF wiki in 2008, mostly inspired by earlier "women
    * in open source" communities such as linuxchix */
   linuxchix -> geekfeminism;
@@ -62,6 +83,7 @@ digraph G {
   linuxchix -> debianwomen;
   debianwomen -> ubuntuwomen;
   linuxchix -> gnomewomen; /* maybe via other orgs too? */
+  linuxchix -> owoot;
 
   /* Gnome Outreach Program for Women, now FOSS OPW */
   gnomewomen -> opw;
@@ -82,6 +104,11 @@ digraph G {
   couchdb [shape=diamond];
   railsbridge -> pystar;
   railsbridge -> railsgirls;
+
+  /* There's now a rails girls summer of code */
+
+  railsgirls -> rgsoc;
+  gsoc -> rgsoc;
 
 
   wiscon -> racefail;
