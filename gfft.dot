@@ -17,7 +17,7 @@ digraph GeekFeminismFamilyTree {
   }
   { rank = same; past; livejournal; wiscon; linuxconfau}
   { rank = same; "2000-2003"; linuxchix; }
-  { rank = same; "2004-2006"; gsoc; opw; ubuntuwomen; gnomewomen; debianwomen; girlgeekdinners; blogher; speakerswiki}
+  { rank = same; "2004-2006"; gsoc; opw; ubuntuwomen; gnomewomen; debianwomen; girlgeekdinners; blogher; speakerswiki; railsconf2005; devchix}
   { rank = same; 2007; haecksen; shesgeeky; }
   { rank = same; 2008; "SFF CAHP"; geekfeminism; dreamwidth; otw; }
   { rank = same; 2009; oscon2009; racefail; couchdb; railsbridge; osbp; backupproject; osbridge; }
@@ -153,5 +153,8 @@ digraph GeekFeminismFamilyTree {
    * '05 and is supported by She's Geeky */
   blogher -> speakerswiki;
   shesgeeky -> speakerswiki;
+
+  /* Desi McAdam started DevChix in 2005 with initial membership from user groups and RailsConf 2005 */
+  railsconf2005 -> devchix;
 
 }
