@@ -31,10 +31,15 @@ digraph G {
 
   /* DoubleUnion came out of AdaCamp SF in 2012 */
   adacamp -> doubleunion;
+  /* pretty sure mothership hackermoms was also an inspiration? */
+  mothershiphackermoms -> doubleunion;
 
   /* Various early women-in-open-source mailing lists etc */
   linuxchix -> debianwomen;
   debianwomen -> ubuntuwomen;
+
+  /* LinuxChix inspired the Haecksen miniconf at LCA */
+  linuxchix -> haecksen;
 
   /* RailsBridge happened in response to the CouchDB incident at
    * GoGaRuCo */
