@@ -17,7 +17,7 @@ digraph GeekFeminismFamilyTree {
   }
   { rank = same; past; livejournal; wiscon; linuxconfau}
   { rank = same; "2000-2003"; linuxchix; }
-  { rank = same; "2004-2006"; gsoc; opw; ubuntuwomen; gnomewomen; debianwomen; girlgeekdinners; blogher; }
+  { rank = same; "2004-2006"; gsoc; opw; ubuntuwomen; gnomewomen; debianwomen; girlgeekdinners; blogher; speakerswiki}
   { rank = same; 2007; haecksen; shesgeeky; }
   { rank = same; 2008; "SFF CAHP"; geekfeminism; dreamwidth; otw; }
   { rank = same; 2009; oscon2009; racefail; couchdb; railsbridge; osbp; backupproject; osbridge; }
@@ -148,5 +148,10 @@ digraph GeekFeminismFamilyTree {
   /* Trans*H4CK inspired the Transtech meetups
    * lukasblakk.com/why-i-was-part-of-creating-a-thing-called-transtech/ */
   transh4ck -> transtech;
+
+  /* Speaker's wiki (www.socialtext.net/speakers) came out of BlogHer
+   * '05 and is supported by She's Geeky */
+  blogher -> speakerswiki;
+  shesgeeky -> speakerswiki;
 
 }
