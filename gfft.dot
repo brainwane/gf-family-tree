@@ -82,8 +82,10 @@ digraph G {
   /* Various early women-in-open-source mailing lists etc */
   linuxchix -> debianwomen;
   debianwomen -> ubuntuwomen;
-  linuxchix -> gnomewomen; /* maybe via other orgs too? */
-  linuxchix -> owoot;
+  /* Direct ancestry, because Hanna Wallach did debianwomen first and
+   * then GNOME Women, and was never a big participant in LinuxChix*/
+  debianwomen -> gnomewomen;
+  haecksen -> owoot;
 
   /* Gnome Outreach Program for Women, now FOSS OPW */
   gnomewomen -> opw;
@@ -98,6 +100,10 @@ digraph G {
   linuxchix -> haecksen;
   linuxconfau -> haecksen;
 
+  /* Both creations of Mary Gardiner's, one of the inputs to AdaCamp is
+     what wasn't possible with Haecksen */
+  haecksen -> adacamp;
+
   /* RailsBridge happened in response to the CouchDB incident at
    * GoGaRuCo */
   couchdb -> railsbridge;
@@ -109,7 +115,6 @@ digraph G {
 
   railsgirls -> rgsoc;
   gsoc -> rgsoc;
-
 
   wiscon -> racefail;
 
