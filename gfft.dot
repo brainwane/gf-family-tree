@@ -26,6 +26,7 @@ digraph G {
   { rank = same; 2012; adacamp; railsgirls; "Skeptic AHPs"; "PyCon AHP"; "Feminist Frequency vids";}
   { rank = same; 2013; seattleattic; doubleunion; rgsoc; callbackwomen; "Scalzi's AHP pledge"; }
   { rank = same; 2014; mvc; "#CoCPledge"; }
+  { rank = same; 2014; mvc }
   { rank = same; unknowndate; }
 
   /* GGD explicitly identify as non-feminist
