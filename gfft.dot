@@ -50,6 +50,8 @@ digraph G {
   railsbridge -> railsgirls;
 
   gnomewomen -> opw;
+  /* Google Summer of Code influenced OPW in two ways: 1. form 2. lack
+   * of women applicants to GSoc. */
   gsoc -> opw;
   wiscon -> racefail;
 
