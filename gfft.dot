@@ -1,0 +1,60 @@
+digraph G {
+
+  /*
+     The following shapes are used for different types of things:
+     oval = geek feminist/women-in-tech/etc organisation
+     diamond = event/incident (cf. GF wiki "Timeline of Incidents")
+  */
+
+  /* Skud set up the GF wiki in 2008, mostly inspired by earlier "women
+   * in open source" communities such as linuxchix */
+  linuxchix -> geekfeminism;
+
+  /* in 2009, Racefail introduced Skud and other GF wiki contributors to
+   * a lot of new ideas */
+  racefail -> geekfeminism;
+  racefail [shape=diamond];
+
+  /* in 2010, the Noirin Plunkett's assault at ApacheCon triggered
+   * discussions about anti-harassment that would lead to the formation
+   * of the Ada Initiative */
+  apachecon -> adainitiative;
+  apachecon [shape=diamond];
+
+  geekfeminism -> adainitiative;
+  adainitiative -> adacamp;
+
+  /* Adacamp was inspired in some ways by Wiscon, eg. accessibility */
+  wiscon -> adacamp;
+  /* and then open source bridge picked up some of that from adacamp */
+  adacamp -> osbridge;
+
+  /* DoubleUnion came out of AdaCamp SF in 2012 */
+  adacamp -> doubleunion;
+
+  /* Various early women-in-open-source mailing lists etc */
+  linuxchix -> debianwomen;
+  debianwomen -> ubuntuwomen;
+
+  /* RailsBridge happened in response to the CouchDB incident at
+   * GoGaRuCo */
+  couchdb -> railsbridge;
+  couchdb [shape=diamond];
+  railsbridge -> pystar;
+  railsbridge -> railsgirls;
+
+  gsoc -> opw;
+  wiscon -> racefail;
+
+  /* Livejournal (esp. their fail) inspired DW and OTW */
+  livejournal -> dreamwidth;
+  livejournal -> otw;
+
+  /* Dreamwidth and OTW inspired Skud's 2009 OSCON keynote */
+  dreamwidth -> oscon2009;
+  otw -> oscon2009;
+
+  /* GF blog came out of the oscon2009 keynote, as a place to have
+   * ongoing conversations */
+  oscon2009 -> geekfeminism;
+}
