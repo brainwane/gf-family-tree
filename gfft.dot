@@ -155,6 +155,7 @@ digraph GeekFeminismFamilyTree {
   shesgeeky -> speakerswiki;
 
   /* Desi McAdam started DevChix in 2005 with initial membership from user groups and RailsConf 2005 */
-  railsconf2005 -> devchix;
+  /* And RailsBridge planning started on the DevChix wiki...which no longer exists */
+  railsconf2005 -> devchix -> railsbridge;
 
 }
