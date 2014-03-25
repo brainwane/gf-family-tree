@@ -16,7 +16,7 @@ digraph GeekFeminismFamilyTree {
     past -> "2000-2003" -> "2004-2006" -> 2007 -> 2008 -> 2009 -> 2010 -> 2011 -> 2012 -> 2013 -> 2014 -> unknowndate;
   }
   { rank = same; past; livejournal; wiscon; linuxconfau}
-  { rank = same; "2000-2003"; linuxchix; }
+  { rank = same; "2000-2003"; linuxchix; sfruby}
   { rank = same; "2004-2006"; gsoc; opw; ubuntuwomen; gnomewomen; debianwomen; girlgeekdinners; blogher; speakerswiki; railsconf2005; devchix}
   { rank = same; 2007; haecksen; shesgeeky; }
   { rank = same; 2008; "SFF CAHP"; geekfeminism; dreamwidth; otw; }
@@ -155,7 +155,9 @@ digraph GeekFeminismFamilyTree {
   shesgeeky -> speakerswiki;
 
   /* Desi McAdam started DevChix in 2005 with initial membership from user groups and RailsConf 2005 */
-  /* And RailsBridge planning started on the DevChix wiki...which no longer exists */
-  railsconf2005 -> devchix -> railsbridge;
+  /* After seeing few women at SFRuby, Sarah Mei worked with DevChix folks organizing RailsBridge on the DevChix wiki */
+  railsconf2005 -> devchix;
+  devchix -> railsbridge;
+  sfruby -> railsbridge;
 
 }
