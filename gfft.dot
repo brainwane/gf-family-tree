@@ -42,6 +42,10 @@ digraph G {
   /* LinuxChix inspired the Haecksen miniconf at LCA */
   linuxchix -> haecksen;
 
+  /* Both creations of Mary Gardiner's, one of the inputs to AdaCamp is
+     what wasn't possible with Haecksen */
+  haecksen -> adacamp;
+
   /* RailsBridge happened in response to the CouchDB incident at
    * GoGaRuCo */
   couchdb -> railsbridge;
