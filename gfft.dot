@@ -16,16 +16,16 @@ digraph G {
     past -> "2000-2003" -> "2004-2006" -> 2007 -> 2008 -> 2009 -> 2010 -> 2011 -> 2012 -> 2013 -> 2014 -> unknowndate;
   }
   { rank = same; past; livejournal; wiscon; linuxconfau}
-  { rank = same; "2000-2003"; linuxchix; gnomewomen; ubuntuwomen; debianwomen; } /* roughly? */
-  { rank = same; "2004-2006"; gsoc; opw;}
+  { rank = same; "2000-2003"; linuxchix; } /* roughly? */
+  { rank = same; "2004-2006"; gsoc; opw; ubuntuwomen; gnomewomen; debianwomen;}
   { rank = same; 2007; haecksen; }
   { rank = same; 2008; "SFF CAHP"; geekfeminism; dreamwidth; otw; }
   { rank = same; 2009; oscon2009; racefail; couchdb; railsbridge; osbp; backupproject; osbridge; }
-  { rank = same; 2010; "apachecon assault"; }
+  { rank = same; 2010; "apachecon assault"; backupribbons;}
   { rank = same; 2011; adainitiative; "GF/TAI AHP"; owoot }
-  { rank = same; 2012; adacamp; railsgirls; }
-  { rank = same; 2013; doubleunion; rgsoc; }
-  { rank = same; 2014; mvc }
+  { rank = same; 2012; adacamp; railsgirls; "Skeptic AHPs"; "PyCon AHP"; "Feminist Frequency vids";}
+  { rank = same; 2013; doubleunion; rgsoc; "Scalzi's AHP pledge"; }
+  { rank = same; 2014; mvc; "#CoCPledge"; }
   { rank = same; unknowndate; }
 
   /* Skud set up the GF wiki in 2008, mostly inspired by earlier "women
@@ -63,9 +63,17 @@ digraph G {
   osbp -> backupproject
   osbp [shape=diamond]
   "SFF CAHP" -> backupproject
+  backupproject -> backupribbons;
 
   /* The GF/TAI AHP inspired the PyCon variant */
-  "GF/TAI AHP" -> "PyCon AHP"
+  "GF/TAI AHP" -> "PyCon AHP";
+
+  /* The GF/TAI AHP inspired the skeptic variants */
+  "GF/TAI AHP" -> "Skeptic AHPs";
+  "GF/TAI AHP" -> "#CoCPledge";
+
+  /* Causation here is less clear. */
+  "GF/TAI AHP" -> "Scalzi's AHP pledge" [label="?"];
 
   adainitiative -> adacamp;
 
@@ -74,7 +82,7 @@ digraph G {
   /* and then open source bridge picked up some of that from adacamp */
   adacamp -> osbridge [label="a11y policies"];
 
-  /* DoubleUnion came out of AdaCamp SF in 2012 */
+  /* DoubleUnion came out of AdaCamp SF in 2013 */
   adacamp -> doubleunion;
   /* pretty sure mothership hackermoms was also an inspiration? */
   mothershiphackermoms -> doubleunion;
