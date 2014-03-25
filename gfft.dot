@@ -3,6 +3,7 @@ digraph G {
   /*
      The following shapes are used for different types of things:
      oval = geek feminist/women-in-tech/etc organisation
+     rectangle = orgs that aren't particularly feminist, but are influential
      diamond = event/incident (cf. GF wiki "Timeline of Incidents")
   */
 
@@ -18,10 +19,33 @@ digraph G {
   /* in 2010, the Noirin Plunkett's assault at ApacheCon triggered
    * discussions about anti-harassment that would lead to the formation
    * of the Ada Initiative */
-  apachecon -> adainitiative;
-  apachecon [shape=diamond];
+  "apachecon assault" -> adainitiative;
+  "apachecon assault" [shape=diamond];
 
+  /* GF (esp. volunteer burnout) was an influence on TAI */
   geekfeminism -> adainitiative;
+
+  /* The first TAI discussions were held at LCA */
+  linuxconfau -> adainitiative;
+  linuxconfau [shape=rectangle];
+
+  /* TAI wrote the first conf anti-harassment poilcy in response to the
+   * apachecon assault */
+  "apachecon assault" -> "GF/TAI AHP"
+  "geekfeminism" -> "GF/TAI AHP"
+  "adainitiative" -> "GF/TAI AHP"
+
+  /* The Con Anti-Harassment Policy (out of SFF fandom) also inspired it */
+  "SFF CAHP" -> "GF/TAI AHP"
+
+  /* Vaguely related: Open Source Boob Project and Backup Project */
+  osbp -> backupproject
+  osbp [shape=diamond]
+  "SFF CAHP" -> backupproject
+
+  /* The GF/TAI AHP inspired the PyCon variant */
+  "GF/TAI AHP" -> "PyCon AHP"
+
   adainitiative -> adacamp;
 
   /* Adacamp was inspired in some ways by Wiscon, eg. accessibility */
@@ -37,9 +61,20 @@ digraph G {
   /* Various early women-in-open-source mailing lists etc */
   linuxchix -> debianwomen;
   debianwomen -> ubuntuwomen;
+  linuxchix -> gnomewomen; /* maybe via other orgs too? */
+
+  /* Gnome Outreach Program for Women, now FOSS OPW */
+  gnomewomen -> opw;
+  /* "The Outreach Program for Women (OPW) was inspired by Google's
+   * Summer of Code and by how few women applied for it."
+   * via gnome.org/opw (why can't I include double slashes in a comment?)
+   */
+  gsoc -> opw;
+  gsoc [shape=rectangle]
 
   /* LinuxChix inspired the Haecksen miniconf at LCA */
   linuxchix -> haecksen;
+  linuxconfau -> haecksen;
 
   /* RailsBridge happened in response to the CouchDB incident at
    * GoGaRuCo */
@@ -48,12 +83,13 @@ digraph G {
   railsbridge -> pystar;
   railsbridge -> railsgirls;
 
-  gsoc -> opw;
+
   wiscon -> racefail;
 
   /* Livejournal (esp. their fail) inspired DW and OTW */
   livejournal -> dreamwidth;
   livejournal -> otw;
+  livejournal [shape=rectangle]
 
   /* Dreamwidth and OTW inspired Skud's 2009 OSCON keynote */
   dreamwidth -> oscon2009;
