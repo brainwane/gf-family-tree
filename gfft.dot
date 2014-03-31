@@ -23,7 +23,7 @@ digraph GeekFeminismFamilyTree {
   { rank = same; 2009; oscon2009; racefail; couchdb; railsbridge; osbp; backupproject; osbridge; }
   { rank = same; 2010; "apachecon assault"; backupribbons;}
   { rank = same; 2011; adainitiative; "GF/TAI AHP"; owoot; blackgirlscode }
-  { rank = same; 2012; adacamp; railsgirls; "Skeptic AHPs"; "PyCon AHP"; "Feminist Frequency vids"; transcodesf; }
+  { rank = same; 2012; adacamp; railsgirls; "Skeptic AHPs"; "PyCon AHP"; "Feminist Frequency vids"; transcodesf; libtechwomen; }
   { rank = same; 2013; seattleattic; doubleunion; rgsoc; callbackwomen; "Scalzi's AHP pledge"; transh4ck; transtech; }
   { rank = same; 2014; mvc; "#CoCPledge"; }
   { rank = same; 2014; mvc }
@@ -159,5 +159,7 @@ digraph GeekFeminismFamilyTree {
   railsconf2005 -> devchix;
   devchix -> railsbridge;
   sfruby -> railsbridge;
+
+  libtechwomen;
 
 }
