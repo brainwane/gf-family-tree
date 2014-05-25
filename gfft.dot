@@ -89,6 +89,7 @@ digraph GeekFeminismFamilyTree {
 
   /* DoubleUnion came out of AdaCamp SF in 2013 */
   adacamp -> doubleunion;
+  geekfeminism -> seattleattic
   "females in hackerspaces email" -> seattleattic
   "females in hackerspaces email" -> doubleunion
   /* pretty sure mothership hackermoms was also an inspiration? */
