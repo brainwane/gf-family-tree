@@ -24,7 +24,7 @@ digraph GeekFeminismFamilyTree {
   { rank = same; 2010; "apachecon assault"; backupribbons;}
   { rank = same; 2011; adainitiative; "GF/TAI AHP"; owoot; blackgirlscode }
   { rank = same; 2012; adacamp; railsgirls; "Skeptic AHPs"; "PyCon AHP"; "Feminist Frequency vids"; transcodesf; }
-  { rank = same; 2013; seattleattic; doubleunion; rgsoc; callbackwomen; "Scalzi's AHP pledge"; transh4ck; transtech; }
+  { rank = same; 2013; seattleattic; doubleunion; rgsoc; callbackwomen; "Scalzi's AHP pledge"; transh4ck; transtech; "females in hackerspaces email"}
   { rank = same; 2014; mvc; "#CoCPledge"; }
   { rank = same; 2014; mvc }
   { rank = same; unknowndate; }
@@ -89,6 +89,8 @@ digraph GeekFeminismFamilyTree {
 
   /* DoubleUnion came out of AdaCamp SF in 2013 */
   adacamp -> doubleunion;
+  "females in hackerspaces email" -> seattleattic
+  "females in hackerspaces email" -> doubleunion
   /* pretty sure mothership hackermoms was also an inspiration? */
   mothershiphackermoms -> doubleunion;
   seattleattic -> doubleunion;
