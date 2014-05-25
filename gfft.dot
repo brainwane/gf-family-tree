@@ -87,11 +87,14 @@ digraph GeekFeminismFamilyTree {
   /* and then open source bridge picked up some of that from adacamp */
   adacamp -> osbridge [label="a11y policies"];
 
+
+  /* Hackerspaces! */
+  "females in hackerspaces email" [shape="diamond"];
+  "females in hackerspaces email" -> seattleattic;
+  "females in hackerspaces email" -> doubleunion;
   /* DoubleUnion came out of AdaCamp SF in 2013 */
   adacamp -> doubleunion;
-  geekfeminism -> seattleattic
-  "females in hackerspaces email" -> seattleattic
-  "females in hackerspaces email" -> doubleunion
+  geekfeminism -> seattleattic;
   /* pretty sure mothership hackermoms was also an inspiration? */
   mothershiphackermoms -> doubleunion;
   seattleattic -> doubleunion;
