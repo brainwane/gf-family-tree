@@ -18,12 +18,12 @@ digraph GeekFeminismFamilyTree {
   { rank = same; past; livejournal; wiscon; linuxconfau}
   { rank = same; "2000-2003"; linuxchix; sfruby}
   { rank = same; "2004-2006"; gsoc; opw; ubuntuwomen; gnomewomen; debianwomen; girlgeekdinners; blogher; speakerswiki; railsconf2005; devchix}
-  { rank = same; 2007; haecksen; shesgeeky; }
+  { rank = same; 2007; haecksen; shesgeeky; noisebridge; }
   { rank = same; 2008; "SFF CAHP"; geekfeminism; dreamwidth; otw; }
   { rank = same; 2009; oscon2009; racefail; couchdb; railsbridge; osbp; backupproject; osbridge; }
   { rank = same; 2010; "apachecon assault"; backupribbons;}
   { rank = same; 2011; adainitiative; "GF/TAI AHP"; owoot; blackgirlscode }
-  { rank = same; 2012; adacamp; railsgirls; "Skeptic AHPs"; "PyCon AHP"; "Feminist Frequency vids"; transcodesf; libtechwomen; }
+  { rank = same; 2012; adacamp; railsgirls; "Skeptic AHPs"; "PyCon AHP"; "Feminist Frequency vids"; transcodesf; libtechwomen; "anarchafeminist hacker hive"}
   { rank = same; 2013; seattleattic; doubleunion; rgsoc; callbackwomen; "Scalzi's AHP pledge"; transh4ck; transtech; "females in hackerspaces email"}
   { rank = same; 2014; mvc; "#CoCPledge"; }
   { rank = same; 2014; mvc }
@@ -92,6 +92,11 @@ digraph GeekFeminismFamilyTree {
   "females in hackerspaces email" [shape="diamond"];
   "females in hackerspaces email" -> seattleattic;
   "females in hackerspaces email" -> doubleunion;
+
+  noisebridge [shape="rectangle"];
+  noisebridge -> "anarchafeminist hacker hive"
+  "anarchafeminist hacker hive" -> doubleunion;
+
   /* DoubleUnion came out of AdaCamp SF in 2013 */
   adacamp -> doubleunion;
   geekfeminism -> seattleattic;
