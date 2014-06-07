@@ -22,7 +22,7 @@ digraph GeekFeminismFamilyTree {
   { rank = same; 2008; "SFF CAHP"; geekfeminism; dreamwidth; otw; }
   { rank = same; 2009; oscon2009; racefail; couchdb; railsbridge; "open source boobs project"; backupproject; osbridge; }
   { rank = same; 2010; "apachecon assault"; backupribbons;}
-  { rank = same; 2011; adainitiative; "GF/TAI AHP"; owoot; blackgirlscode }
+  { rank = same; 2011; "Ada Initiative"; "GF/TAI AHP"; owoot; blackgirlscode }
   { rank = same; 2012; adacamp; railsgirls; "Skeptic AHPs"; "PyCon AHP"; "Feminist Frequency vids"; transcodesf; libtechwomen; "anarchafeminist hacker hive"; "Ashe Dryden"; hackbright; hackerschool}
   { rank = same; 2013; seattleattic; flux; doubleunion; rgsoc; callbackwomen; "Scalzi's AHP pledge"; transh4ck; transtech; "females in hackerspaces email"; "ada developers academy"}
   { rank = same; 2014; mvc; "#CoCPledge"; }
@@ -56,21 +56,21 @@ digraph GeekFeminismFamilyTree {
   /* in 2010, the Noirin Plunkett's assault at ApacheCon triggered
    * discussions about anti-harassment that would lead to the formation
    * of the Ada Initiative */
-  "apachecon assault" -> adainitiative;
+  "apachecon assault" -> "Ada Initiative";
   "apachecon assault" [shape=diamond];
 
   /* GF (esp. volunteer burnout) was an influence on TAI */
-  geekfeminism -> adainitiative;
+  geekfeminism -> "Ada Initiative";
 
   /* The first TAI discussions were held at LCA */
-  linuxconfau -> adainitiative;
+  linuxconfau -> "Ada Initiative";
   linuxconfau [shape=rectangle];
 
   /* TAI wrote the first conf anti-harassment poilcy in response to the
    * apachecon assault */
   "apachecon assault" -> "GF/TAI AHP"
   "geekfeminism" -> "GF/TAI AHP"
-  "adainitiative" -> "GF/TAI AHP"
+  ""Ada Initiative"" -> "GF/TAI AHP"
 
   /* The Con Anti-Harassment Policy (out of SFF fandom) also inspired it */
   "SFF CAHP" -> "GF/TAI AHP"
@@ -91,7 +91,8 @@ digraph GeekFeminismFamilyTree {
   /* Causation here is less clear. */
   "GF/TAI AHP" -> "Scalzi's AHP pledge" [label="?"];
 
-  adainitiative -> adacamp;
+  "Ada Initiative" -> adacamp;
+  "Ada Initiative" -> WoMoz;
 
   /* Adacamp was inspired in some ways by Wiscon, eg. accessibility */
   wiscon -> adacamp [label="a11y policies"];
