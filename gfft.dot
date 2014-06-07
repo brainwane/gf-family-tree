@@ -20,7 +20,7 @@ digraph GeekFeminismFamilyTree {
   { rank = same; "2004-2006"; gsoc; opw; ubuntuwomen; gnomewomen; debianwomen; girlgeekdinners; blogher; speakerswiki; railsconf2005; devchix}
   { rank = same; 2007; haecksen; shesgeeky; noisebridge; }
   { rank = same; 2008; "SFF CAHP"; geekfeminism; dreamwidth; otw; }
-  { rank = same; 2009; oscon2009; racefail; couchdb; railsbridge; osbp; backupproject; osbridge; }
+  { rank = same; 2009; oscon2009; racefail; couchdb; railsbridge; "open source boobs project"; backupproject; osbridge; }
   { rank = same; 2010; "apachecon assault"; backupribbons;}
   { rank = same; 2011; adainitiative; "GF/TAI AHP"; owoot; blackgirlscode }
   { rank = same; 2012; adacamp; railsgirls; "Skeptic AHPs"; "PyCon AHP"; "Feminist Frequency vids"; transcodesf; libtechwomen; "anarchafeminist hacker hive"}
@@ -65,8 +65,8 @@ digraph GeekFeminismFamilyTree {
   "SFF CAHP" -> "GF/TAI AHP"
 
   /* Vaguely related: Open Source Boob Project and Backup Project */
-  osbp -> backupproject
-  osbp [shape=diamond]
+  "open source boobs project" -> backupproject
+  "open source boobs project" [shape=diamond]
   "SFF CAHP" -> backupproject
   backupproject -> backupribbons;
 
