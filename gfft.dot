@@ -95,6 +95,7 @@ digraph GeekFeminismFamilyTree {
 
   noisebridge [shape="rectangle"];
   noisebridge -> "anarchafeminist hacker hive"
+  noisebridge -> doubleunion;
   "anarchafeminist hacker hive" -> doubleunion;
 
   /* DoubleUnion came out of AdaCamp SF in 2013 */
