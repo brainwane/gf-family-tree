@@ -72,6 +72,7 @@ digraph GeekFeminismFamilyTree {
   rgsoc [style=filled, fillcolor=lightpink];
   couchdb [style=filled, fillcolor=lightpink];
   sfruby [style=filled, fillcolor=lightpink];
+  "PyCon AHP" [style=filled, fillcolor=lightpink];
 
   /* tech industry generally */
   systers [style=filled, fillcolor=burlywood1];
@@ -272,8 +273,11 @@ digraph GeekFeminismFamilyTree {
   /* Desi McAdam started DevChix in 2005 with initial membership from user groups and RailsConf 2005 */
   /* After seeing few women at SFRuby, Sarah Mei worked with DevChix folks organizing RailsBridge on the DevChix wiki */
   railsconf2005 -> devchix;
+  linuxchix -> devchix;
   devchix -> railsbridge;
   sfruby -> railsbridge;
+  sfruby [shape=rectangle];
+  railsconf2005 [shape=rectangle];
 
   libtechwomen;
 
