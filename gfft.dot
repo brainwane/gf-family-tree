@@ -17,13 +17,13 @@ digraph GeekFeminismFamilyTree {
   }
   { rank = same; past; livejournal; wiscon; linuxconfau; "Anita Borg Institute"; systers, GHC}
   { rank = same; "2000-2003"; linuxchix; sfruby}
-  { rank = same; "2004-2006"; gsoc; opw; ubuntuwomen; gnomewomen; debianwomen; girlgeekdinners; blogher; speakerswiki; railsconf2005; devchix}
+  { rank = same; "2004-2006"; gsoc; opw; ubuntuwomen; gnomewomen; debianwomen; girlgeekdinners; blogher; speakerswiki; railsconf2005; devchix; wikichix;}
   { rank = same; 2007; haecksen; shesgeeky; noisebridge; }
   { rank = same; 2008; "SFF CAHP"; geekfeminism; dreamwidth; otw; }
   { rank = same; 2009; oscon2009; racefail; couchdb; railsbridge; "open source boobs project"; backupproject; osbridge; }
   { rank = same; 2010; "apachecon assault"; backupribbons;}
-  { rank = same; 2011; "Ada Initiative"; "GF/TAI AHP"; owoot; blackgirlscode }
-  { rank = same; 2012; adacamp; railsgirls; "Skeptic AHPs"; "PyCon AHP"; "Feminist Frequency vids"; transcodesf; libtechwomen; "anarchafeminist hacker hive"; "Ashe Dryden"; hackbright; hackerschool; hackermoms}
+  { rank = same; 2011; "Ada Initiative"; "GF/TAI AHP"; owoot; blackgirlscode; "Wikimedia Gendergap Project" }
+  { rank = same; 2012; adacamp; railsgirls; "Wikimedia Friendly Space Policy"; "Skeptic AHPs"; "PyCon AHP"; "Feminist Frequency vids"; transcodesf; libtechwomen; "anarchafeminist hacker hive"; "Ashe Dryden"; hackbright; hackerschool; hackermoms}
   { rank = same; 2013; seattleattic; flux; doubleunion; rgsoc; callbackwomen; "Scalzi's AHP pledge"; transh4ck; transtech; "females in hackerspaces email"; "Ada Developers Academy"}
   { rank = same; 2014; mvc; "#CoCPledge"; }
   { rank = same; 2014; mvc }
@@ -76,6 +76,11 @@ digraph GeekFeminismFamilyTree {
   hackerschool [style=filled, fillcolor=palegoldenrod];
   hackbright [style=filled, fillcolor=palegoldenrod];
   "Ada Developers Academy" [style=filled, fillcolor=palegoldenrod];
+
+  /* Wikis */
+  wikichix [style=filled, fillcolor=lightcyan];
+  "Wikimedia Gendergap Project" [style=filled, fillcolor=lightcyan];
+  "Wikimedia Friendly Space Policy" [style=filled, fillcolor=lightcyan];
 
   /* SFF fandom */
 
@@ -151,6 +156,12 @@ digraph GeekFeminismFamilyTree {
   "GF/TAI AHP" -> "Skeptic AHPs";
   "GF/TAI AHP" -> "#CoCPledge";
 
+  /* Sumana acknowledges GF as inspiration for Wikimedia friendly space
+   policy */
+
+  "GF/TAI AHP" -> "Wikimedia Friendly Space Policy";
+  "Wikimedia Gendergap Project" -> "Wikimedia Friendly Space Policy";
+
   /* Causation here is less clear. */
   "GF/TAI AHP" -> "Scalzi's AHP pledge" [label="?"];
 
@@ -192,6 +203,10 @@ digraph GeekFeminismFamilyTree {
    * then GNOME Women, and was never a big participant in LinuxChix*/
   debianwomen -> gnomewomen;
   haecksen -> owoot;
+
+  /* Wikichix was named after/inspired by Linuxchix */
+
+  linuxchix -> wikichix;
 
   /* Gnome Outreach Program for Women, now FOSS OPW */
   gnomewomen -> opw;
