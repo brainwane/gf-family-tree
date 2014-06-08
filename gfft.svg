@@ -154,7 +154,7 @@
 </g>
 <!-- adacamp -->
 <g id="node53" class="node"><title>adacamp</title>
-<ellipse fill="none" stroke="black" cx="1530.1" cy="-280.456" rx="41.5593" ry="18"/>
+<ellipse fill="#ff6a6a" stroke="black" cx="1530.1" cy="-280.456" rx="41.5593" ry="18"/>
 <text text-anchor="middle" x="1530.1" y="-276.256" font-family="Times,serif" font-size="14.00">adacamp</text>
 </g>
 <!-- wiscon&#45;&gt;adacamp -->
@@ -180,7 +180,7 @@
 </g>
 <!-- Ada Initiative -->
 <g id="node48" class="node"><title>Ada Initiative</title>
-<ellipse fill="none" stroke="black" cx="595.102" cy="-368.368" rx="58.9495" ry="18"/>
+<ellipse fill="#ff6a6a" stroke="black" cx="595.102" cy="-368.368" rx="58.9495" ry="18"/>
 <text text-anchor="middle" x="595.102" y="-364.168" font-family="Times,serif" font-size="14.00">Ada Initiative</text>
 </g>
 <!-- linuxconfau&#45;&gt;Ada Initiative -->
@@ -245,7 +245,7 @@
 </g>
 <!-- geekfeminism -->
 <g id="node36" class="node"><title>geekfeminism</title>
-<ellipse fill="none" stroke="black" cx="493.102" cy="-643.823" rx="60.4115" ry="18"/>
+<ellipse fill="#ff6a6a" stroke="black" cx="493.102" cy="-643.823" rx="60.4115" ry="18"/>
 <text text-anchor="middle" x="493.102" y="-639.623" font-family="Times,serif" font-size="14.00">geekfeminism</text>
 </g>
 <!-- linuxchix&#45;&gt;geekfeminism -->

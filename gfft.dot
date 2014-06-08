@@ -33,6 +33,12 @@ digraph GeekFeminismFamilyTree {
     This section lays out different communities and colour codes them.
   */
 
+  /* pan-geekdom/"open stuff" orgs */
+
+  geekfeminism [style=filled, fillcolor=indianred1];
+  "Ada Initiative" [style=filled, fillcolor=indianred1];
+  adacamp [style=filled, fillcolor=indianred1];
+
   /* hacker spaces */
   noisebridge [style=filled, fillcolor=cornflowerblue];
   doubleunion [style=filled, fillcolor=cornflowerblue];
