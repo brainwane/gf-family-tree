@@ -78,6 +78,7 @@ digraph GeekFeminismFamilyTree {
   "Anita Borg Institute" [style=filled, fillcolor=burlywood1];
   GHC [style=filled, fillcolor=burlywood1];
   girlgeekdinners [style=filled, fillcolor=burlywood1];
+  "Ashe Dryden" [style=filled, fillcolor=burlywood1];
 
   /* hacker schools and academies */
   hackerschool [style=filled, fillcolor=palegoldenrod];
