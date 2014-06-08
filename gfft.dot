@@ -20,11 +20,11 @@ digraph GeekFeminismFamilyTree {
   { rank = same; "2004-2006"; gsoc; opw; ubuntuwomen; gnomewomen; debianwomen; girlgeekdinners; blogher; speakerswiki; railsconf2005; devchix; wikichix;}
   { rank = same; 2007; haecksen; shesgeeky; noisebridge; }
   { rank = same; 2008; "SFF CAHP"; geekfeminism; dreamwidth; otw; }
-  { rank = same; 2009; oscon2009; racefail; couchdb; railsbridge; "open source boobs project"; backupproject; osbridge; }
+  { rank = same; 2009; oscon2009; racefail; couchdb; railsbridge; "open source\nboobs project"; backupproject; osbridge; }
   { rank = same; 2010; "apachecon assault"; backupribbons;}
-  { rank = same; 2011; "Ada Initiative"; "GF/TAI AHP"; owoot; blackgirlscode; "Wikimedia Gendergap Project" }
-  { rank = same; 2012; adacamp; railsgirls; "Wikimedia Friendly Space Policy"; "Skeptic AHPs"; "PyCon AHP"; "Feminist Frequency vids"; transcodesf; libtechwomen; "anarchafeminist hacker hive"; "Ashe Dryden"; hackbright; hackerschool; hackermoms; WoMoz}
-  { rank = same; 2013; seattleattic; flux; doubleunion; rgsoc; callbackwomen; "Scalzi's AHP pledge"; transh4ck; transtech; "females in hackerspaces email"; "Ada Developers Academy"}
+  { rank = same; 2011; "Ada Initiative"; "GF/TAI AHP"; owoot; blackgirlscode; "Wikimedia\nGendergap Project" }
+  { rank = same; 2012; adacamp; railsgirls; "Wikimedia\nFriendly Space Policy"; "Skeptic AHPs"; "PyCon AHP"; "Feminist Frequency vids"; transcodesf; libtechwomen; "anarchafeminist\nhacker hive"; "Ashe Dryden"; hackbright; hackerschool; hackermoms; WoMoz}
+  { rank = same; 2013; seattleattic; flux; doubleunion; rgsoc; callbackwomen; "Scalzi's AHP pledge"; transh4ck; transtech; "females in\nhackerspaces email"; "Ada Developers Academy"}
   { rank = same; 2014; mvc; "#CoCPledge"; }
   { rank = same; 2014; mvc }
   { rank = same; unknowndate; }
@@ -38,8 +38,8 @@ digraph GeekFeminismFamilyTree {
   doubleunion [style=filled, fillcolor=cornflowerblue];
   flux [style=filled, fillcolor=cornflowerblue];
   seattleattic [style=filled, fillcolor=cornflowerblue];
-  "females in hackerspaces email" [style=filled, fillcolor=cornflowerblue];
-  "anarchafeminist hacker hive" [style=filled, fillcolor=cornflowerblue];
+  "females in\nhackerspaces email" [style=filled, fillcolor=cornflowerblue];
+  "anarchafeminist\nhacker hive" [style=filled, fillcolor=cornflowerblue];
   "hackermoms" [style=filled, fillcolor=cornflowerblue];
 
   /* open source */
@@ -80,14 +80,14 @@ digraph GeekFeminismFamilyTree {
 
   /* Wikis */
   wikichix [style=filled, fillcolor=lightcyan];
-  "Wikimedia Gendergap Project" [style=filled, fillcolor=lightcyan];
-  "Wikimedia Friendly Space Policy" [style=filled, fillcolor=lightcyan];
+  "Wikimedia\nGendergap Project" [style=filled, fillcolor=lightcyan];
+  "Wikimedia\nFriendly Space Policy" [style=filled, fillcolor=lightcyan];
 
   /* SFF fandom */
 
   wiscon [style=filled, fillcolor=mediumorchid1];
   racefail [style=filled, fillcolor=mediumorchid1];
-  "open source boobs project" [style=filled, fillcolor=mediumorchid1];
+  "open source\nboobs project" [style=filled, fillcolor=mediumorchid1];
   backupproject [style=filled, fillcolor=mediumorchid1];
   backupribbons [style=filled, fillcolor=mediumorchid1];
   "SFF CAHP" [style=filled, fillcolor=mediumorchid1];
@@ -145,8 +145,8 @@ digraph GeekFeminismFamilyTree {
   "SFF CAHP" -> "GF/TAI AHP"
 
   /* Vaguely related: Open Source Boob Project and Backup Project */
-  "open source boobs project" -> backupproject
-  "open source boobs project" [shape=diamond]
+  "open source\nboobs project" -> backupproject
+  "open source\nboobs project" [shape=diamond]
   "SFF CAHP" -> backupproject
   backupproject -> backupribbons;
 
@@ -157,11 +157,11 @@ digraph GeekFeminismFamilyTree {
   "GF/TAI AHP" -> "Skeptic AHPs";
   "GF/TAI AHP" -> "#CoCPledge";
 
-  /* Sumana acknowledges GF as inspiration for Wikimedia friendly space
+  /* Sumana acknowledges GF as inspiration for Wikimedia\nfriendly space
    policy */
 
-  "GF/TAI AHP" -> "Wikimedia Friendly Space Policy";
-  "Wikimedia Gendergap Project" -> "Wikimedia Friendly Space Policy";
+  "GF/TAI AHP" -> "Wikimedia\nFriendly Space Policy";
+  "Wikimedia\nGendergap Project" -> "Wikimedia\nFriendly Space Policy";
 
   /* Causation here is less clear. */
   "GF/TAI AHP" -> "Scalzi's AHP pledge" [label="?"];
@@ -176,14 +176,14 @@ digraph GeekFeminismFamilyTree {
 
 
   /* Hackerspaces! */
-  "females in hackerspaces email" [shape="diamond"];
-  "females in hackerspaces email" -> seattleattic;
-  "females in hackerspaces email" -> doubleunion;
+  "females in\nhackerspaces email" [shape="diamond"];
+  "females in\nhackerspaces email" -> seattleattic;
+  "females in\nhackerspaces email" -> doubleunion;
 
   noisebridge [shape="rectangle"];
-  noisebridge -> "anarchafeminist hacker hive"
+  noisebridge -> "anarchafeminist\nhacker hive"
   noisebridge -> doubleunion;
-  "anarchafeminist hacker hive" -> doubleunion;
+  "anarchafeminist\nhacker hive" -> doubleunion;
   adacamp -> flux;
   seattleattic -> flux;
 
