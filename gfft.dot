@@ -146,8 +146,8 @@ digraph GeekFeminismFamilyTree {
   /* TAI wrote the first conf anti-harassment poilcy in response to the
    * apachecon assault */
   "apachecon assault" -> "GF/TAI AHP"
-  "geekfeminism" -> "GF/TAI AHP"
-  "Ada Initiative" -> "GF/TAI AHP"
+  "geekfeminism" -> "GF/TAI AHP" [penwidth=3];
+  "Ada Initiative" -> "GF/TAI AHP" [penwidth=3];
 
   /* The Con Anti-Harassment Policy (out of SFF fandom) also inspired it */
   "SFF CAHP" -> "GF/TAI AHP"
@@ -159,28 +159,28 @@ digraph GeekFeminismFamilyTree {
   backupproject -> backupribbons;
 
   /* The GF/TAI AHP inspired the PyCon variant */
-  "GF/TAI AHP" -> "PyCon AHP";
+  "GF/TAI AHP" -> "PyCon AHP" [penwidth=3];
 
   /* The GF/TAI AHP inspired the skeptic variants */
-  "GF/TAI AHP" -> "Skeptic AHPs";
-  "GF/TAI AHP" -> "#CoCPledge";
+  "GF/TAI AHP" -> "Skeptic AHPs" [penwidth=3];
+  "GF/TAI AHP" -> "#CoCPledge" [penwidth=3];
 
   /* Sumana acknowledges GF as inspiration for Wikimedia\nfriendly space
    policy */
 
-  "GF/TAI AHP" -> "Wikimedia\nFriendly Space Policy";
+  "GF/TAI AHP" -> "Wikimedia\nFriendly Space Policy" [penwidth=3];
   "Wikimedia\nGendergap Project" -> "Wikimedia\nFriendly Space Policy";
 
   /* Causation here is less clear. */
-  "GF/TAI AHP" -> "Scalzi's AHP pledge" [label="?"];
+  "GF/TAI AHP" -> "Scalzi's AHP pledge" [penwidth=3, label="?"];
 
-  "Ada Initiative" -> adacamp;
-  "Ada Initiative" -> WoMoz;
+  "Ada Initiative" -> adacamp [penwidth=3];
+  "Ada Initiative" -> WoMoz [penwidth=3];
 
   /* Adacamp was inspired in some ways by Wiscon, eg. accessibility */
   wiscon -> adacamp [label="a11y policies"];
   /* and then open source bridge picked up some of that from adacamp */
-  adacamp -> osbridge [label="a11y policies"];
+  adacamp -> osbridge [label="a11y policies", penwidth=3];
 
 
   /* Hackerspaces! */
@@ -192,18 +192,18 @@ digraph GeekFeminismFamilyTree {
   noisebridge -> "anarchafeminist\nhacker hive"
   noisebridge -> doubleunion;
   "anarchafeminist\nhacker hive" -> doubleunion;
-  adacamp -> flux;
-  seattleattic -> flux;
+  adacamp -> flux [penwidth=3];
+  seattleattic -> flux [penwidth=3];
 
   /* DoubleUnion came out of AdaCamp SF in 2013 */
-  adacamp -> doubleunion;
-  geekfeminism -> seattleattic;
+  adacamp -> doubleunion [penwidth=3];
+  geekfeminism -> seattleattic [penwidth=3];
   /* pretty sure  hackermoms was also an inspiration? */
   hackermoms -> doubleunion;
   seattleattic -> doubleunion;
 
-  /* shanley and amelia met at a doubleunion event then started MVc */
-  doubleunion -> mvc;
+  /* shanley and amelia met at a doubleunion event then started MVC */
+  doubleunion -> mvc [penwidth=3];
 
   /* Various early women-in-open-source mailing lists etc */
   linuxchix -> debianwomen;

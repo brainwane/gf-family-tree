@@ -446,8 +446,8 @@
 </g>
 <!-- geekfeminism&#45;&gt;GF/TAI AHP -->
 <g id="edge22" class="edge"><title>geekfeminism&#45;&gt;GF/TAI AHP</title>
-<path fill="none" stroke="black" d="M622.811,-625.633C623.511,-589.21 620.844,-502.778 584.102,-443.823 569.57,-420.507 544.888,-401.92 523.805,-389.149"/>
-<polygon fill="black" stroke="black" points="525.432,-386.046 515.03,-384.035 521.908,-392.094 525.432,-386.046"/>
+<path fill="none" stroke="black" stroke-width="3" d="M622.811,-625.633C623.511,-589.21 620.844,-502.778 584.102,-443.823 569.57,-420.507 544.888,-401.92 523.805,-389.149"/>
+<polygon fill="black" stroke="black" stroke-width="3" points="525.432,-386.046 515.03,-384.035 521.908,-392.094 525.432,-386.046"/>
 </g>
 <!-- seattleattic -->
 <g id="node67" class="node"><title>seattleattic</title>
@@ -456,8 +456,8 @@
 </g>
 <!-- geekfeminism&#45;&gt;seattleattic -->
 <g id="edge46" class="edge"><title>geekfeminism&#45;&gt;seattleattic</title>
-<path fill="none" stroke="black" d="M625.051,-625.495C630.459,-595.224 642.563,-534.267 655.102,-516.823 720.214,-426.24 1024.13,-258.015 1128.67,-201.824"/>
-<polygon fill="black" stroke="black" points="1130.42,-204.858 1137.58,-197.048 1127.11,-198.688 1130.42,-204.858"/>
+<path fill="none" stroke="black" stroke-width="3" d="M625.051,-625.495C630.459,-595.224 642.563,-534.267 655.102,-516.823 720.214,-426.24 1024.13,-258.015 1128.67,-201.824"/>
+<polygon fill="black" stroke="black" stroke-width="3" points="1130.42,-204.858 1137.58,-197.048 1127.11,-198.688 1130.42,-204.858"/>
 </g>
 <!-- oscon2009 -->
 <g id="node39" class="node"><title>oscon2009</title>
@@ -557,13 +557,13 @@
 </g>
 <!-- Ada Initiative&#45;&gt;GF/TAI AHP -->
 <g id="edge23" class="edge"><title>Ada Initiative&#45;&gt;GF/TAI AHP</title>
-<path fill="none" stroke="black" d="M392.18,-368.368C400.702,-368.368 409.224,-368.368 417.747,-368.368"/>
-<polygon fill="black" stroke="black" points="417.751,-371.868 427.751,-368.368 417.751,-364.868 417.751,-371.868"/>
+<path fill="none" stroke="black" stroke-width="3" d="M392.18,-368.368C400.702,-368.368 409.224,-368.368 417.747,-368.368"/>
+<polygon fill="black" stroke="black" stroke-width="3" points="417.751,-371.868 427.751,-368.368 417.751,-364.868 417.751,-371.868"/>
 </g>
 <!-- Ada Initiative&#45;&gt;adacamp -->
 <g id="edge34" class="edge"><title>Ada Initiative&#45;&gt;adacamp</title>
-<path fill="none" stroke="black" d="M371.668,-354.584C386.361,-350.196 403.357,-345.694 419.102,-342.912 572.631,-315.78 1052.1,-291.348 1210.64,-283.827"/>
-<polygon fill="black" stroke="black" points="1211.22,-287.303 1221.05,-283.335 1210.89,-280.311 1211.22,-287.303"/>
+<path fill="none" stroke="black" stroke-width="3" d="M371.668,-354.584C386.361,-350.196 403.357,-345.694 419.102,-342.912 572.631,-315.78 1052.1,-291.348 1210.64,-283.827"/>
+<polygon fill="black" stroke="black" stroke-width="3" points="1211.22,-287.303 1221.05,-283.335 1210.89,-280.311 1211.22,-287.303"/>
 </g>
 <!-- WoMoz -->
 <g id="node66" class="node"><title>WoMoz</title>
@@ -572,8 +572,8 @@
 </g>
 <!-- Ada Initiative&#45;&gt;WoMoz -->
 <g id="edge35" class="edge"><title>Ada Initiative&#45;&gt;WoMoz</title>
-<path fill="none" stroke="black" d="M287.677,-356.717C261.302,-349.601 227.9,-338.959 200.102,-324.912 188.174,-318.884 176.044,-310.591 165.841,-302.863"/>
-<polygon fill="black" stroke="black" points="167.809,-299.959 157.771,-296.568 163.503,-305.478 167.809,-299.959"/>
+<path fill="none" stroke="black" stroke-width="3" d="M287.677,-356.717C261.302,-349.601 227.9,-338.959 200.102,-324.912 188.174,-318.884 176.044,-310.591 165.841,-302.863"/>
+<polygon fill="black" stroke="black" stroke-width="3" points="167.809,-299.959 157.771,-296.568 163.503,-305.478 167.809,-299.959"/>
 </g>
 <!-- Wikimedia\nFriendly Space Policy -->
 <g id="node55" class="node"><title>Wikimedia\nFriendly Space Policy</title>
@@ -583,8 +583,8 @@
 </g>
 <!-- GF/TAI AHP&#45;&gt;Wikimedia\nFriendly Space Policy -->
 <g id="edge31" class="edge"><title>GF/TAI AHP&#45;&gt;Wikimedia\nFriendly Space Policy</title>
-<path fill="none" stroke="black" d="M511.752,-352.403C533.12,-340.405 563.678,-323.246 589.389,-308.809"/>
-<polygon fill="black" stroke="black" points="591.253,-311.776 598.258,-303.828 587.825,-305.673 591.253,-311.776"/>
+<path fill="none" stroke="black" stroke-width="3" d="M511.752,-352.403C533.12,-340.405 563.678,-323.246 589.389,-308.809"/>
+<polygon fill="black" stroke="black" stroke-width="3" points="591.253,-311.776 598.258,-303.828 587.825,-305.673 591.253,-311.776"/>
 </g>
 <!-- Skeptic AHPs -->
 <g id="node56" class="node"><title>Skeptic AHPs</title>
@@ -593,8 +593,8 @@
 </g>
 <!-- GF/TAI AHP&#45;&gt;Skeptic AHPs -->
 <g id="edge29" class="edge"><title>GF/TAI AHP&#45;&gt;Skeptic AHPs</title>
-<path fill="none" stroke="black" d="M454.222,-353.181C422.647,-338.674 373.437,-316.066 338.72,-300.117"/>
-<polygon fill="black" stroke="black" points="339.887,-296.801 329.339,-295.807 336.964,-303.162 339.887,-296.801"/>
+<path fill="none" stroke="black" stroke-width="3" d="M454.222,-353.181C422.647,-338.674 373.437,-316.066 338.72,-300.117"/>
+<polygon fill="black" stroke="black" stroke-width="3" points="339.887,-296.801 329.339,-295.807 336.964,-303.162 339.887,-296.801"/>
 </g>
 <!-- PyCon AHP -->
 <g id="node57" class="node"><title>PyCon AHP</title>
@@ -603,8 +603,8 @@
 </g>
 <!-- GF/TAI AHP&#45;&gt;PyCon AHP -->
 <g id="edge28" class="edge"><title>GF/TAI AHP&#45;&gt;PyCon AHP</title>
-<path fill="none" stroke="black" d="M474.038,-350.394C465.932,-337.959 454.793,-320.87 445.633,-306.818"/>
-<polygon fill="black" stroke="black" points="448.345,-304.568 439.952,-298.102 442.48,-308.39 448.345,-304.568"/>
+<path fill="none" stroke="black" stroke-width="3" d="M474.038,-350.394C465.932,-337.959 454.793,-320.87 445.633,-306.818"/>
+<polygon fill="black" stroke="black" stroke-width="3" points="448.345,-304.568 439.952,-298.102 442.48,-308.39 448.345,-304.568"/>
 </g>
 <!-- Scalzi&#39;s AHP pledge -->
 <g id="node72" class="node"><title>Scalzi&#39;s AHP pledge</title>
@@ -613,8 +613,8 @@
 </g>
 <!-- GF/TAI AHP&#45;&gt;Scalzi&#39;s AHP pledge -->
 <g id="edge33" class="edge"><title>GF/TAI AHP&#45;&gt;Scalzi&#39;s AHP pledge</title>
-<path fill="none" stroke="black" d="M445.534,-355.163C431.559,-351.035 415.691,-346.553 401.102,-342.912 323.036,-323.429 277.075,-366.285 223.888,-305.912 201.027,-279.962 203.122,-237.815 207.78,-210.248"/>
-<polygon fill="black" stroke="black" points="211.278,-210.592 209.718,-200.113 204.402,-209.278 211.278,-210.592"/>
+<path fill="none" stroke="black" stroke-width="3" d="M445.534,-355.163C431.559,-351.035 415.691,-346.553 401.102,-342.912 323.036,-323.429 277.075,-366.285 223.888,-305.912 201.027,-279.962 203.122,-237.815 207.78,-210.248"/>
+<polygon fill="black" stroke="black" stroke-width="3" points="211.278,-210.592 209.718,-200.113 204.402,-209.278 211.278,-210.592"/>
 <text text-anchor="middle" x="227.208" y="-276.256" font-family="Times,serif" font-size="14.00">?</text>
 </g>
 <!-- #CoCPledge -->
@@ -624,8 +624,8 @@
 </g>
 <!-- GF/TAI AHP&#45;&gt;#CoCPledge -->
 <g id="edge30" class="edge"><title>GF/TAI AHP&#45;&gt;#CoCPledge</title>
-<path fill="none" stroke="black" d="M487.177,-350.161C488.634,-337.846 490.586,-320.869 492.102,-305.912 498.885,-238.974 505.546,-160.116 508.887,-119.403"/>
-<polygon fill="black" stroke="black" points="512.394,-119.457 509.719,-109.205 505.417,-118.887 512.394,-119.457"/>
+<path fill="none" stroke="black" stroke-width="3" d="M487.177,-350.161C488.634,-337.846 490.586,-320.869 492.102,-305.912 498.885,-238.974 505.546,-160.116 508.887,-119.403"/>
+<polygon fill="black" stroke="black" stroke-width="3" points="512.394,-119.457 509.719,-109.205 505.417,-118.887 512.394,-119.457"/>
 </g>
 <!-- blackgirlscode -->
 <g id="node51" class="node"><title>blackgirlscode</title>
@@ -645,8 +645,8 @@
 </g>
 <!-- adacamp&#45;&gt;osbridge -->
 <g id="edge37" class="edge"><title>adacamp&#45;&gt;osbridge</title>
-<path fill="none" stroke="black" d="M1265.53,-298.636C1274.66,-344.347 1299.61,-469.238 1310.68,-524.684"/>
-<polygon fill="black" stroke="black" points="1307.25,-525.379 1312.64,-534.499 1314.12,-524.008 1307.25,-525.379"/>
+<path fill="none" stroke="black" stroke-width="3" d="M1265.53,-298.636C1274.66,-344.347 1299.61,-469.238 1310.68,-524.684"/>
+<polygon fill="black" stroke="black" stroke-width="3" points="1307.25,-525.379 1312.64,-534.499 1314.12,-524.008 1307.25,-525.379"/>
 <text text-anchor="middle" x="1327.97" y="-414.623" font-family="Times,serif" font-size="14.00">a11y policies</text>
 </g>
 <!-- flux -->
@@ -656,13 +656,13 @@
 </g>
 <!-- adacamp&#45;&gt;flux -->
 <g id="edge43" class="edge"><title>adacamp&#45;&gt;flux</title>
-<path fill="none" stroke="black" d="M1264.25,-262.211C1266.04,-247.809 1268.63,-227.015 1270.7,-210.345"/>
-<polygon fill="black" stroke="black" points="1274.21,-210.451 1271.97,-200.095 1267.27,-209.586 1274.21,-210.451"/>
+<path fill="none" stroke="black" stroke-width="3" d="M1264.25,-262.211C1266.04,-247.809 1268.63,-227.015 1270.7,-210.345"/>
+<polygon fill="black" stroke="black" stroke-width="3" points="1274.21,-210.451 1271.97,-200.095 1267.27,-209.586 1274.21,-210.451"/>
 </g>
 <!-- adacamp&#45;&gt;doubleunion -->
 <g id="edge45" class="edge"><title>adacamp&#45;&gt;doubleunion</title>
-<path fill="none" stroke="black" d="M1280.01,-264.172C1298.44,-248.44 1327.36,-223.748 1348.48,-205.726"/>
-<polygon fill="black" stroke="black" points="1350.82,-208.332 1356.15,-199.178 1346.27,-203.008 1350.82,-208.332"/>
+<path fill="none" stroke="black" stroke-width="3" d="M1280.01,-264.172C1298.44,-248.44 1327.36,-223.748 1348.48,-205.726"/>
+<polygon fill="black" stroke="black" stroke-width="3" points="1350.82,-208.332 1356.15,-199.178 1346.27,-203.008 1350.82,-208.332"/>
 </g>
 <!-- railsgirls&#45;&gt;rgsoc -->
 <g id="edge63" class="edge"><title>railsgirls&#45;&gt;rgsoc</title>
@@ -716,8 +716,8 @@
 </g>
 <!-- seattleattic&#45;&gt;flux -->
 <g id="edge44" class="edge"><title>seattleattic&#45;&gt;flux</title>
-<path fill="none" stroke="black" d="M1212.23,-182C1220.47,-182 1228.72,-182 1236.97,-182"/>
-<polygon fill="black" stroke="black" points="1237.03,-185.5 1247.03,-182 1237.03,-178.5 1237.03,-185.5"/>
+<path fill="none" stroke="black" stroke-width="3" d="M1212.23,-182C1220.47,-182 1228.72,-182 1236.97,-182"/>
+<polygon fill="black" stroke="black" stroke-width="3" points="1237.03,-185.5 1247.03,-182 1237.03,-178.5 1237.03,-185.5"/>
 </g>
 <!-- seattleattic&#45;&gt;doubleunion -->
 <g id="edge48" class="edge"><title>seattleattic&#45;&gt;doubleunion</title>
@@ -731,8 +731,8 @@
 </g>
 <!-- doubleunion&#45;&gt;mvc -->
 <g id="edge49" class="edge"><title>doubleunion&#45;&gt;mvc</title>
-<path fill="none" stroke="black" d="M1375.1,-163.84C1375.1,-151.281 1375.1,-133.979 1375.1,-119.502"/>
-<polygon fill="black" stroke="black" points="1378.6,-119.107 1375.1,-109.107 1371.6,-119.107 1378.6,-119.107"/>
+<path fill="none" stroke="black" stroke-width="3" d="M1375.1,-163.84C1375.1,-151.281 1375.1,-133.979 1375.1,-119.502"/>
+<polygon fill="black" stroke="black" stroke-width="3" points="1378.6,-119.107 1375.1,-109.107 1371.6,-119.107 1378.6,-119.107"/>
 </g>
 <!-- callbackwomen -->
 <g id="node71" class="node"><title>callbackwomen</title>
