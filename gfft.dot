@@ -103,7 +103,6 @@ digraph GeekFeminismFamilyTree {
 
   /*
      And now, finally, the connections between different groups
-
   */
 
   /* Anita Borg Institute related stuff */
@@ -116,6 +115,7 @@ digraph GeekFeminismFamilyTree {
 
   /* Other individuals */
   "Ashe Dryden" [shape=hexagon]
+  geekfeminism -> "Ashe Dryden" [penwidth=3];
 
   /* GGD explicitly identify as non-feminist
    * news.bbc.co.uk/2/hi/technology/8663593.stm */
