@@ -23,11 +23,74 @@ digraph GeekFeminismFamilyTree {
   { rank = same; 2009; oscon2009; racefail; couchdb; railsbridge; "open source boobs project"; backupproject; osbridge; }
   { rank = same; 2010; "apachecon assault"; backupribbons;}
   { rank = same; 2011; "Ada Initiative"; "GF/TAI AHP"; owoot; blackgirlscode }
-  { rank = same; 2012; adacamp; railsgirls; "Skeptic AHPs"; "PyCon AHP"; "Feminist Frequency vids"; transcodesf; libtechwomen; "anarchafeminist hacker hive"; "Ashe Dryden"; hackbright; hackerschool}
-  { rank = same; 2013; seattleattic; flux; doubleunion; rgsoc; callbackwomen; "Scalzi's AHP pledge"; transh4ck; transtech; "females in hackerspaces email"; "ada developers academy"}
+  { rank = same; 2012; adacamp; railsgirls; "Skeptic AHPs"; "PyCon AHP"; "Feminist Frequency vids"; transcodesf; libtechwomen; "anarchafeminist hacker hive"; "Ashe Dryden"; hackbright; hackerschool; hackermoms}
+  { rank = same; 2013; seattleattic; flux; doubleunion; rgsoc; callbackwomen; "Scalzi's AHP pledge"; transh4ck; transtech; "females in hackerspaces email"; "Ada Developers Academy"}
   { rank = same; 2014; mvc; "#CoCPledge"; }
   { rank = same; 2014; mvc }
   { rank = same; unknowndate; }
+
+  /*
+    This section lays out different communities and colour codes them.
+  */
+
+  /* hacker spaces */
+  noisebridge [style=filled, fillcolor=cornflowerblue];
+  doubleunion [style=filled, fillcolor=cornflowerblue];
+  flux [style=filled, fillcolor=cornflowerblue];
+  seattleattic [style=filled, fillcolor=cornflowerblue];
+  "females in hackerspaces email" [style=filled, fillcolor=cornflowerblue];
+  "anarchafeminist hacker hive" [style=filled, fillcolor=cornflowerblue];
+  "hackermoms" [style=filled, fillcolor=cornflowerblue];
+
+  /* open source */
+  linuxchix [style=filled, fillcolor=darkolivegreen3];
+  linuxconfau [style=filled, fillcolor=darkolivegreen3];
+  gnomewomen [style=filled, fillcolor=darkolivegreen3];
+  debianwomen [style=filled, fillcolor=darkolivegreen3];
+  ubuntuwomen [style=filled, fillcolor=darkolivegreen3];
+  haecksen [style=filled, fillcolor=darkolivegreen3];
+  owoot [style=filled, fillcolor=darkolivegreen3];
+  oscon2009 [style=filled, fillcolor=darkolivegreen3];
+  osbridge [style=filled, fillcolor=darkolivegreen3];
+  gsoc [style=filled, fillcolor=darkolivegreen3];
+  opw [style=filled, fillcolor=darkolivegreen3];
+  "apachecon assault" [style=filled, fillcolor=darkolivegreen3];
+
+  /* programming language communities */
+  railsconf2005 [style=filled, fillcolor=lightpink];
+  devchix [style=filled, fillcolor=lightpink];
+  railsbridge [style=filled, fillcolor=lightpink];
+  pystar [style=filled, fillcolor=lightpink];
+  railsgirls [style=filled, fillcolor=lightpink];
+  rgsoc [style=filled, fillcolor=lightpink];
+  couchdb [style=filled, fillcolor=lightpink];
+  sfruby [style=filled, fillcolor=lightpink];
+
+  /* tech industry generally */
+  systers [style=filled, fillcolor=burlywood1];
+  "Anita Borg Institute" [style=filled, fillcolor=burlywood1];
+  GHC [style=filled, fillcolor=burlywood1];
+  girlgeekdinners [style=filled, fillcolor=burlywood1];
+
+  /* hacker schools and academies */
+  hackerschool [style=filled, fillcolor=palegoldenrod];
+  hackbright [style=filled, fillcolor=palegoldenrod];
+  "Ada Developers Academy" [style=filled, fillcolor=palegoldenrod];
+
+  /* SFF fandom */
+
+  wiscon [style=filled, fillcolor=mediumorchid1];
+  racefail [style=filled, fillcolor=mediumorchid1];
+  "open source boobs project" [style=filled, fillcolor=mediumorchid1];
+  backupproject [style=filled, fillcolor=mediumorchid1];
+  backupribbons [style=filled, fillcolor=mediumorchid1];
+  "SFF CAHP" [style=filled, fillcolor=mediumorchid1];
+
+
+  /*
+     And now, finally, the connections between different groups
+
+  */
 
   /* Anita Borg Institute related stuff */
 
@@ -70,7 +133,7 @@ digraph GeekFeminismFamilyTree {
    * apachecon assault */
   "apachecon assault" -> "GF/TAI AHP"
   "geekfeminism" -> "GF/TAI AHP"
-  ""Ada Initiative"" -> "GF/TAI AHP"
+  "Ada Initiative" -> "GF/TAI AHP"
 
   /* The Con Anti-Harassment Policy (out of SFF fandom) also inspired it */
   "SFF CAHP" -> "GF/TAI AHP"
@@ -115,8 +178,8 @@ digraph GeekFeminismFamilyTree {
   /* DoubleUnion came out of AdaCamp SF in 2013 */
   adacamp -> doubleunion;
   geekfeminism -> seattleattic;
-  /* pretty sure mothership hackermoms was also an inspiration? */
-  mothershiphackermoms -> doubleunion;
+  /* pretty sure  hackermoms was also an inspiration? */
+  hackermoms -> doubleunion;
   seattleattic -> doubleunion;
 
   /* shanley and amelia met at a doubleunion event then started MVc */
