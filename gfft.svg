@@ -696,12 +696,12 @@
 </g>
 <!-- hackbright -->
 <g id="node63" class="node"><title>hackbright</title>
-<ellipse fill="palegoldenrod" stroke="black" cx="2500.1" cy="-280.456" rx="47.8496" ry="18"/>
+<ellipse fill="#cdcdb4" stroke="black" cx="2500.1" cy="-280.456" rx="47.8496" ry="18"/>
 <text text-anchor="middle" x="2500.1" y="-276.256" font-family="Times,serif" font-size="14.00">hackbright</text>
 </g>
 <!-- hackerschool -->
 <g id="node64" class="node"><title>hackerschool</title>
-<ellipse fill="palegoldenrod" stroke="black" cx="2623.1" cy="-280.456" rx="56.5201" ry="18"/>
+<ellipse fill="#cdcdb4" stroke="black" cx="2623.1" cy="-280.456" rx="56.5201" ry="18"/>
 <text text-anchor="middle" x="2623.1" y="-276.256" font-family="Times,serif" font-size="14.00">hackerschool</text>
 </g>
 <!-- hackermoms -->
@@ -772,7 +772,7 @@
 </g>
 <!-- Ada Developers Academy -->
 <g id="node76" class="node"><title>Ada Developers Academy</title>
-<ellipse fill="palegoldenrod" stroke="black" cx="2311.1" cy="-182" rx="102.866" ry="18"/>
+<ellipse fill="#cdcdb4" stroke="black" cx="2311.1" cy="-182" rx="102.866" ry="18"/>
 <text text-anchor="middle" x="2311.1" y="-177.8" font-family="Times,serif" font-size="14.00">Ada Developers Academy</text>
 </g>
 <!-- Anita Borg -->

@@ -82,9 +82,9 @@ digraph GeekFeminismFamilyTree {
   "Ashe Dryden" [style=filled, fillcolor=burlywood1];
 
   /* hacker schools and academies */
-  hackerschool [style=filled, fillcolor=palegoldenrod];
-  hackbright [style=filled, fillcolor=palegoldenrod];
-  "Ada Developers Academy" [style=filled, fillcolor=palegoldenrod];
+  hackerschool [style=filled, fillcolor=lightyellow3];
+  hackbright [style=filled, fillcolor=lightyellow3];
+  "Ada Developers Academy" [style=filled, fillcolor=lightyellow3];
 
   /* Wikis */
   wikichix [style=filled, fillcolor=lightcyan];
