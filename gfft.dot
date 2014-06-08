@@ -23,7 +23,7 @@ digraph GeekFeminismFamilyTree {
   { rank = same; 2009; oscon2009; racefail; couchdb; railsbridge; "open source boobs project"; backupproject; osbridge; }
   { rank = same; 2010; "apachecon assault"; backupribbons;}
   { rank = same; 2011; "Ada Initiative"; "GF/TAI AHP"; owoot; blackgirlscode; "Wikimedia Gendergap Project" }
-  { rank = same; 2012; adacamp; railsgirls; "Wikimedia Friendly Space Policy"; "Skeptic AHPs"; "PyCon AHP"; "Feminist Frequency vids"; transcodesf; libtechwomen; "anarchafeminist hacker hive"; "Ashe Dryden"; hackbright; hackerschool; hackermoms}
+  { rank = same; 2012; adacamp; railsgirls; "Wikimedia Friendly Space Policy"; "Skeptic AHPs"; "PyCon AHP"; "Feminist Frequency vids"; transcodesf; libtechwomen; "anarchafeminist hacker hive"; "Ashe Dryden"; hackbright; hackerschool; hackermoms; WoMoz}
   { rank = same; 2013; seattleattic; flux; doubleunion; rgsoc; callbackwomen; "Scalzi's AHP pledge"; transh4ck; transtech; "females in hackerspaces email"; "Ada Developers Academy"}
   { rank = same; 2014; mvc; "#CoCPledge"; }
   { rank = same; 2014; mvc }
@@ -54,6 +54,7 @@ digraph GeekFeminismFamilyTree {
   osbridge [style=filled, fillcolor=darkolivegreen3];
   gsoc [style=filled, fillcolor=darkolivegreen3];
   opw [style=filled, fillcolor=darkolivegreen3];
+  WoMoz [style=filled, fillcolor=darkolivegreen3];
   "apachecon assault" [style=filled, fillcolor=darkolivegreen3];
 
   /* programming language communities */
