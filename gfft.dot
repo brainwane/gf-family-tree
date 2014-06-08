@@ -137,7 +137,7 @@ digraph GeekFeminismFamilyTree {
   "apachecon assault" [shape=diamond];
 
   /* GF (esp. volunteer burnout) was an influence on TAI */
-  geekfeminism -> "Ada Initiative";
+  geekfeminism -> "Ada Initiative" [penwidth=3];
 
   /* The first TAI discussions were held at LCA */
   linuxconfau -> "Ada Initiative";
@@ -216,6 +216,8 @@ digraph GeekFeminismFamilyTree {
   /* Wikichix was named after/inspired by Linuxchix */
 
   linuxchix -> wikichix;
+  /* I presume wikichiz was an influence on the gendergap project? */
+  wikichix -> "Wikimedia\nGendergap Project";
 
   /* Gnome Outreach Program for Women, now FOSS OPW */
   gnomewomen -> opw;
