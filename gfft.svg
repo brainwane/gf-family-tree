@@ -400,7 +400,7 @@
 </g>
 <!-- shesgeeky -->
 <g id="node34" class="node"><title>shesgeeky</title>
-<ellipse fill="none" stroke="black" cx="1777.1" cy="-729.823" rx="46.4046" ry="18"/>
+<ellipse fill="#ff6a6a" stroke="black" cx="1777.1" cy="-729.823" rx="46.4046" ry="18"/>
 <text text-anchor="middle" x="1777.1" y="-725.623" font-family="Times,serif" font-size="14.00">shesgeeky</text>
 </g>
 <!-- shesgeeky&#45;&gt;speakerswiki -->

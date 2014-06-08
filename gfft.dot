@@ -39,6 +39,7 @@ digraph GeekFeminismFamilyTree {
   geekfeminism [style=filled, fillcolor=indianred1];
   "Ada Initiative" [style=filled, fillcolor=indianred1];
   adacamp [style=filled, fillcolor=indianred1];
+  shesgeeky [style=filled, fillcolor=indianred1];
 
   /* hacker spaces */
   noisebridge [style=filled, fillcolor=cornflowerblue];
