@@ -16,7 +16,7 @@ digraph GeekFeminismFamilyTree {
     past -> "2000-2004" -> 2005 -> 2006 -> 2007 -> 2008 -> 2009 -> 2010 -> 2011 -> 2012 -> 2013 -> 2014 -> unknowndate;
   }
   { rank = same; past; livejournal; wiscon; linuxconfau; "Anita Borg Institute"; systers, GHC}
-  { rank = same; "2000-2004"; linuxchix; sfruby; debianwomen}
+  { rank = same; "2000-2004"; linuxchix; sfruby; debianwomen, "Unlocking\nthe Clubhouse"}
   { rank = same; 2005; railsconf2005; devchix; blogher; speakerswiki; girlgeekdinners; gnomewomen; gsoc; }
   { rank = same; 2006; wikichix; ubuntuwomen; opw; }
   { rank = same; 2007; haecksen; shesgeeky; noisebridge; oscon2007; "code 'n' splode"}
@@ -290,6 +290,11 @@ digraph GeekFeminismFamilyTree {
   sfruby -> railsbridge;
   sfruby [shape=rectangle];
   railsconf2005 [shape=rectangle];
+
+  /* hackerschool was influenced by Unlocking the Clubhouse */
+  "Unlocking\nthe Clubhouse" -> hackerschool;
+  /* and by Ashe twitter.com/nicholasbs/status/476033083876315137 */
+  "Ashe Dryden" -> hackerschool;
 
   libtechwomen;
 
