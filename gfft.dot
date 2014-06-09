@@ -16,7 +16,7 @@ digraph GeekFeminismFamilyTree {
     node [shape=plaintext, fontsize=16];
     past -> "2000-2004" -> 2005 -> 2006 -> 2007 -> 2008 -> 2009 -> 2010 -> 2011 -> 2012 -> 2013 -> 2014 -> unknowndate;
   }
-  { rank = same; past; livejournal; wiscon; linuxconfau; "Anita Borg Institute"; systers, GHC}
+  { rank = same; past; livejournal; wiscon; linuxconfau; "Anita Borg Institute"; systers; GHC; "Tiptree Award"}
   { rank = same; "2000-2004"; linuxchix; sfruby; debianwomen, "Unlocking\nthe Clubhouse"}
   { rank = same; 2005; railsconf2005; devchix; blogher; speakerswiki; girlgeekdinners; gnomewomen; gsoc; }
   { rank = same; 2006; wikichix; ubuntuwomen; opw; }
@@ -100,6 +100,7 @@ digraph GeekFeminismFamilyTree {
   /* SFF fandom */
 
   wiscon [style=filled, fillcolor=mediumorchid1];
+  "Tiptree Award" [style=filled, fillcolor=mediumorchid1];
   racefail [style=filled, fillcolor=mediumorchid1];
   "open source\nboobs project" [style=filled, fillcolor=mediumorchid1];
   backupproject [style=filled, fillcolor=mediumorchid1];
@@ -253,6 +254,7 @@ digraph GeekFeminismFamilyTree {
   gsoc -> rgsoc;
 
   wiscon -> racefail;
+  wiscon -> "Tiptree Award";
 
   /* Livejournal (esp. their fail) inspired DW and OTW */
   livejournal -> dreamwidth;
