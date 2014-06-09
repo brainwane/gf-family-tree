@@ -19,12 +19,12 @@ digraph GeekFeminismFamilyTree {
   { rank = same; "2000-2004"; linuxchix; sfruby; debianwomen}
   { rank = same; 2005; railsconf2005; devchix; blogher; speakerswiki; girlgeekdinners; gnomewomen; gsoc; }
   { rank = same; 2006; wikichix; ubuntuwomen; opw; }
-  { rank = same; 2007; haecksen; shesgeeky; noisebridge; }
+  { rank = same; 2007; haecksen; shesgeeky; noisebridge; oscon2007; "code 'n' splode"}
   { rank = same; 2008; "SFF CAHP"; geekfeminism; dreamwidth; otw; }
   { rank = same; 2009; oscon2009; racefail; couchdb; railsbridge; "open source\nboobs project"; backupproject; osbridge; WoMoz}
   { rank = same; 2010; "apachecon assault"; backupribbons; }
   { rank = same; 2011; "Ada Initiative"; "GF/TAI AHP"; owoot; blackgirlscode; "Wikimedia\nGendergap Project" }
-  { rank = same; 2012; adacamp; railsgirls; "Wikimedia\nFriendly Space Policy"; "Skeptic AHPs"; "PyCon AHP"; "Feminist Frequency vids"; transcodesf; libtechwomen; "anarchafeminist\nhacker hive"; "Ashe Dryden"; hackbright; hackerschool; hackermoms }
+  { rank = same; 2012; adacamp; railsgirls; "Wikimedia\nFriendly Space Policy"; "Skeptic AHPs"; "PyCon AHP"; "Feminist Frequency vids"; transcodesf; libtechwomen; "anarchafeminist\nhacker hive"; "Ashe Dryden"; hackbright; hackerschool; hackermoms; "Women Who Hack" }
   { rank = same; 2013; seattleattic; flux; doubleunion; rgsoc; callbackwomen; "Scalzi's AHP pledge"; transh4ck; transtech; "females in\nhackerspaces email"; "Ada Developers Academy"}
   { rank = same; 2014; mvc; "#CoCPledge"; }
   { rank = same; 2014; mvc }
@@ -58,6 +58,7 @@ digraph GeekFeminismFamilyTree {
   ubuntuwomen [style=filled, fillcolor=darkolivegreen3];
   haecksen [style=filled, fillcolor=darkolivegreen3];
   owoot [style=filled, fillcolor=darkolivegreen3];
+  oscon2007 [style=filled, fillcolor=darkolivegreen3];
   oscon2009 [style=filled, fillcolor=darkolivegreen3];
   osbridge [style=filled, fillcolor=darkolivegreen3];
   gsoc [style=filled, fillcolor=darkolivegreen3];
@@ -65,7 +66,7 @@ digraph GeekFeminismFamilyTree {
   WoMoz [style=filled, fillcolor=darkolivegreen3];
   "apachecon assault" [style=filled, fillcolor=darkolivegreen3];
 
-  /* programming language communities */
+  /* programming language and general programming communities */
   railsconf2005 [style=filled, fillcolor=lightpink];
   devchix [style=filled, fillcolor=lightpink];
   railsbridge [style=filled, fillcolor=lightpink];
@@ -75,6 +76,8 @@ digraph GeekFeminismFamilyTree {
   couchdb [style=filled, fillcolor=lightpink];
   sfruby [style=filled, fillcolor=lightpink];
   "PyCon AHP" [style=filled, fillcolor=lightpink];
+  "code 'n' splode" [style=filled, fillcolor=lightpink];
+  "Women Who Hack" [style=filled, fillcolor=lightpink];
 
   /* tech industry generally */
   systers [style=filled, fillcolor=burlywood1];
@@ -264,6 +267,11 @@ digraph GeekFeminismFamilyTree {
   /* GF blog came out of the oscon2009 keynote, as a place to have
    * ongoing conversations */
   oscon2009 -> geekfeminism;
+
+  oscon2007 -> "code 'n' splode";
+  oscon2007 [shape=rectangle];
+
+  "code 'n' splode" -> "Women Who Hack";
 
   /* Trans*H4CK inspired the Transtech meetups
    * lukasblakk.com/why-i-was-part-of-creating-a-thing-called-transtech/ */
