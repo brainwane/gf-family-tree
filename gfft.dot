@@ -21,10 +21,10 @@ digraph GeekFeminismFamilyTree {
   { rank = same; 2006; wikichix; ubuntuwomen; opw; }
   { rank = same; 2007; haecksen; shesgeeky; noisebridge; }
   { rank = same; 2008; "SFF CAHP"; geekfeminism; dreamwidth; otw; }
-  { rank = same; 2009; oscon2009; racefail; couchdb; railsbridge; "open source\nboobs project"; backupproject; osbridge; }
+  { rank = same; 2009; oscon2009; racefail; couchdb; railsbridge; "open source\nboobs project"; backupproject; osbridge; WoMoz}
   { rank = same; 2010; "apachecon assault"; backupribbons; }
   { rank = same; 2011; "Ada Initiative"; "GF/TAI AHP"; owoot; blackgirlscode; "Wikimedia\nGendergap Project" }
-  { rank = same; 2012; adacamp; railsgirls; "Wikimedia\nFriendly Space Policy"; "Skeptic AHPs"; "PyCon AHP"; "Feminist Frequency vids"; transcodesf; libtechwomen; "anarchafeminist\nhacker hive"; "Ashe Dryden"; hackbright; hackerschool; hackermoms; WoMoz}
+  { rank = same; 2012; adacamp; railsgirls; "Wikimedia\nFriendly Space Policy"; "Skeptic AHPs"; "PyCon AHP"; "Feminist Frequency vids"; transcodesf; libtechwomen; "anarchafeminist\nhacker hive"; "Ashe Dryden"; hackbright; hackerschool; hackermoms }
   { rank = same; 2013; seattleattic; flux; doubleunion; rgsoc; callbackwomen; "Scalzi's AHP pledge"; transh4ck; transtech; "females in\nhackerspaces email"; "Ada Developers Academy"}
   { rank = same; 2014; mvc; "#CoCPledge"; }
   { rank = same; 2014; mvc }
@@ -177,7 +177,6 @@ digraph GeekFeminismFamilyTree {
   "GF/TAI AHP" -> "Scalzi's AHP pledge" [penwidth=3, label="?"];
 
   "Ada Initiative" -> adacamp [penwidth=3];
-  "Ada Initiative" -> WoMoz [penwidth=3];
 
   /* Adacamp was inspired in some ways by Wiscon, eg. accessibility */
   wiscon -> adacamp [label="a11y policies"];
