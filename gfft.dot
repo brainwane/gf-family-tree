@@ -293,7 +293,7 @@ digraph GeekFeminismFamilyTree {
   /* hackerschool was influenced by Unlocking the Clubhouse */
   "Unlocking\nthe Clubhouse" -> hackerschool;
   /* and by Ashe twitter.com/nicholasbs/status/476033083876315137 */
-  "Ashe Dryden" -> hackerschool;
+  "Ashe Dryden" -> hackerschool [penwidth=3];
 
   /* Ada Developers Academy influenced by Railsbridge 
   twitter.com/eliseworthy/status/476061026811535362 */

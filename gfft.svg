@@ -762,8 +762,8 @@
 </g>
 <!-- Ashe Dryden&#45;&gt;hackerschool -->
 <g id="edge83" class="edge"><title>Ashe Dryden&#45;&gt;hackerschool</title>
-<path fill="none" stroke="black" d="M903.285,-471.099C919.464,-488.843 946.872,-514.746 977.102,-525.5 1167.84,-593.355 1689.59,-565.203 1888.1,-525.5 1937.53,-515.615 1990.46,-491.382 2024.79,-473.643"/>
-<polygon fill="black" stroke="black" points="2026.74,-476.576 2033.97,-468.829 2023.48,-470.378 2026.74,-476.576"/>
+<path fill="none" stroke="black" stroke-width="3" d="M903.285,-471.099C919.464,-488.843 946.872,-514.746 977.102,-525.5 1167.84,-593.355 1689.59,-565.203 1888.1,-525.5 1937.53,-515.615 1990.46,-491.382 2024.79,-473.643"/>
+<polygon fill="black" stroke="black" stroke-width="3" points="2026.74,-476.576 2033.97,-468.829 2023.48,-470.378 2026.74,-476.576"/>
 </g>
 <!-- hackbright -->
 <g id="node68" class="node"><title>hackbright</title>
