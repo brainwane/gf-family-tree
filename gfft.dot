@@ -259,6 +259,7 @@ digraph GeekFeminismFamilyTree {
   /* Dreamwidth and OTW inspired Skud's 2009 OSCON keynote */
   dreamwidth -> oscon2009;
   otw -> oscon2009;
+  oscon2009 [shape=rectangle];
 
   /* GF blog came out of the oscon2009 keynote, as a place to have
    * ongoing conversations */
