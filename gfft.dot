@@ -22,13 +22,12 @@ digraph GeekFeminismFamilyTree {
   { rank = same; 2006; wikichix; ubuntuwomen; opw; }
   { rank = same; 2007; haecksen; shesgeeky; noisebridge; oscon2007; "code 'n' splode"}
   { rank = same; 2008; "SFF CAHP"; geekfeminism; dreamwidth; otw; }
-  { rank = same; 2009; "Standing Out\nin the Crowd"; racefail; couchdb; railsbridge; "open source\nboobs project"; backupproject; osbridge; WoMoz}
-  { rank = same; 2010; "apachecon assault"; backupribbons; }
+  { rank = same; 2009; "Standing Out\nin the Crowd"; racefail; couchdb; railsbridge; "open source\nboobs project"; backupproject; osbridge; WoMoz; PyStar; "Boston Python Workshop"}
+  { rank = same; 2010; "apachecon assault"; backupribbons; "Women Who Code"}
   { rank = same; 2011; "Ada Initiative"; "GF/TAI AHP"; owoot; blackgirlscode; "Wikimedia\nGendergap Project" }
   { rank = same; 2012; adacamp; railsgirls; "Wikimedia\nFriendly Space Policy"; "Skeptic AHPs"; "PyCon AHP"; "Feminist Frequency vids"; transcodesf; libtechwomen; "anarchafeminist\nhacker hive"; "Ashe Dryden"; hackbright; hackerschool; hackermoms; "Women Who Hack" }
-  { rank = same; 2013; seattleattic; flux; doubleunion; rgsoc; callbackwomen; "Scalzi's AHP pledge"; transh4ck; transtech; "females in\nhackerspaces email"; "Ada Developers Academy"}
-  { rank = same; 2014; mvc; "#CoCPledge"; }
-  { rank = same; 2014; mvc }
+  { rank = same; 2013; seattleattic; flux; doubleunion; rgsoc; callbackwomen; "Scalzi's AHP pledge"; transh4ck; transtech; "females in\nhackerspaces email"; "Ada Developers Academy"; ascend}
+  { rank = same; 2014; MVC; "#CoCPledge"; }
   { rank = same; unknowndate; }
 
   /*
@@ -40,6 +39,7 @@ digraph GeekFeminismFamilyTree {
   geekfeminism [style=filled, fillcolor=indianred1];
   "Ada Initiative" [style=filled, fillcolor=indianred1];
   adacamp [style=filled, fillcolor=indianred1];
+  "GF/TAI AHP" [style=filled, fillcolor=indianred1];
   shesgeeky [style=filled, fillcolor=indianred1];
 
   /* hacker spaces */
@@ -64,6 +64,7 @@ digraph GeekFeminismFamilyTree {
   osbridge [style=filled, fillcolor=darkolivegreen3];
   gsoc [style=filled, fillcolor=darkolivegreen3];
   opw [style=filled, fillcolor=darkolivegreen3];
+  ascend [style=filled, fillcolor=darkolivegreen3];
   WoMoz [style=filled, fillcolor=darkolivegreen3];
   "apachecon assault" [style=filled, fillcolor=darkolivegreen3];
 
@@ -71,7 +72,9 @@ digraph GeekFeminismFamilyTree {
   railsconf2005 [style=filled, fillcolor=lightpink];
   devchix [style=filled, fillcolor=lightpink];
   railsbridge [style=filled, fillcolor=lightpink];
-  pystar [style=filled, fillcolor=lightpink];
+  PyStar [style=filled, fillcolor=lightpink];
+  PyLadies [style=filled, fillcolor=lightpink];
+  "Boston Python Workshop" [style=filled, fillcolor=lightpink, shape=rectangle];
   railsgirls [style=filled, fillcolor=lightpink];
   rgsoc [style=filled, fillcolor=lightpink];
   couchdb [style=filled, fillcolor=lightpink];
@@ -83,9 +86,11 @@ digraph GeekFeminismFamilyTree {
   /* tech industry generally */
   systers [style=filled, fillcolor=burlywood1];
   "Anita Borg Institute" [style=filled, fillcolor=burlywood1];
+  "Anita Borg" [style=filled, fillcolor=burlywood1];
   GHC [style=filled, fillcolor=burlywood1];
   girlgeekdinners [style=filled, fillcolor=burlywood1];
   "Ashe Dryden" [style=filled, fillcolor=burlywood1];
+  MVC [style=filled, fillcolor=burlywood1];
 
   /* hacker schools and academies */
   hackerschool [style=filled, fillcolor=lightyellow3];
@@ -106,6 +111,7 @@ digraph GeekFeminismFamilyTree {
   backupproject [style=filled, fillcolor=mediumorchid1];
   backupribbons [style=filled, fillcolor=mediumorchid1];
   "SFF CAHP" [style=filled, fillcolor=mediumorchid1];
+  "Scalzi's AHP pledge" [style=filled, fillcolor=mediumorchid1];
 
   /*
      And now, finally, the connections between different groups
@@ -208,7 +214,7 @@ digraph GeekFeminismFamilyTree {
   seattleattic -> doubleunion;
 
   /* shanley and amelia met at a doubleunion event then started MVC */
-  doubleunion -> mvc [penwidth=3];
+  doubleunion -> MVC [penwidth=3];
 
   /* Various early women-in-open-source mailing lists etc */
   linuxchix -> debianwomen;
@@ -233,6 +239,9 @@ digraph GeekFeminismFamilyTree {
   gsoc -> opw;
   gsoc [shape=rectangle]
 
+  /* opw inspired project ascend -- per Lukas Blakk */
+  opw -> ascend;
+
   /* LinuxChix inspired the Haecksen miniconf at LCA */
   linuxchix -> haecksen;
   linuxconfau -> haecksen;
@@ -245,8 +254,14 @@ digraph GeekFeminismFamilyTree {
    * GoGaRuCo */
   couchdb -> railsbridge;
   couchdb [shape=diamond];
-  railsbridge -> pystar;
+  railsbridge -> PyStar;
+  "Boston Python Workshop" -> PyStar;
   railsbridge -> railsgirls;
+
+  /* Lukas Blakk, personal communication */
+  GHC -> "Women Who Code"
+  "Women Who Code" -> PyLadies /* needs confirmation */
+  PyStar -> PyLadies
 
   /* There's now a rails girls summer of code */
 
